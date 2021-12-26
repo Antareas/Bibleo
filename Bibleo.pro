@@ -23,6 +23,7 @@ HEADERS += \
     bibleowindow.h \
     book.h \
     bookwindow.h \
+    config.h \
     entrance.h \
     registration.h \
     user.h
@@ -39,6 +40,3 @@ FORMS += \
 qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
-
-DISTFILES += \
-    ОППО.docx
