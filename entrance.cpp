@@ -1,4 +1,9 @@
-#include "Registratin.h"
+#include <QMessageBox>
+#include <QFile>
+#include <QSaveFile>
+
+#include "registration.h"
+#include "entrance.h"
 #include "ui_mainwindow.h"
 
 MainWindow::MainWindow(QWidget *parent)
