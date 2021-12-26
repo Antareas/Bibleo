@@ -11,17 +11,21 @@ CONFIG += c++11
 SOURCES += \
     adminwindow.cpp \
     bibleowindow.cpp \
+    book.cpp \
     bookwindow.cpp \
     entrance.cpp \
     main.cpp \
-    registration.cpp
+    registration.cpp \
+    user.cpp
 
 HEADERS += \
     adminwindow.h \
     bibleowindow.h \
+    book.h \
     bookwindow.h \
     entrance.h \
-    registration.h
+    registration.h \
+    user.h
 
 FORMS += \
     adminwindow.ui \
@@ -35,3 +39,6 @@ FORMS += \
 qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
+
+DISTFILES += \
+    ОППО.docx
